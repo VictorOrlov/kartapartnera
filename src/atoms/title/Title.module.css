@@ -1,0 +1,20 @@
+@font-face{
+  font-family: Gilroy-Bold;
+  src:url('../../fonts/Gilroy-ExtraBold.otf');
+}
+
+.titleStandart{
+  margin: 50px 0;
+  text-align: center;
+  font-size: 36px;
+  font-family: Gilroy-Bold;
+  line-height: 44px;
+  color: #333a57;
+}
+
+.titleSmall {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #818599;
+  font-size: 14px;
+}
