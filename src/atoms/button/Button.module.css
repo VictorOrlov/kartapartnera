@@ -1,0 +1,53 @@
+.mainButton {
+  border: 2px solid rgb(1, 77, 255);
+  color: #fff;
+  background-color: rgb(1, 77, 255);
+}
+.mainButton:hover {
+  border: 2px solid rgb(65, 122, 255);
+  background-color: rgb(65, 122, 255);
+}
+
+.secondButton {
+  border: 2px solid rgb(1, 77, 255);
+  color: rgb(1, 77, 255);
+  background-color: inherit;
+}
+.secondButton:hover {
+  border-color: rgb(65, 122, 255);
+  color: rgb(65, 122, 255);
+}
+
+.thirdButton {
+  border: 2px solid rgb(229, 231, 239);
+  color: rgb(129,133,153);
+  background-color: inherit;
+}
+
+.alarmButton {
+  border: 2px solid rgb(235, 87, 87);
+  color: rgb(255, 255, 255);
+  background-color: rgb(235, 87, 87);
+}
+
+.disableButton {
+  border: 2px solid rgb(129,133,153);
+  color: rgb(255, 255, 255);
+  background-color: rgb(129,133,153);
+}
+
+.mainButton,
+.secondButton,
+.thirdButton,
+.alarmButton,
+.disableButton {
+  width: 63%;
+  margin: 10px auto;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+}

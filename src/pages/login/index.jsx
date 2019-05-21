@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import s from './Login.module.css';
 import Title from "../../atoms/title";
-import Form from '../../molecules/form';
+import LoginForm from '../../organisms/login-form';
 
 
 export default class Login extends Component{
@@ -9,7 +9,7 @@ export default class Login extends Component{
     return(
       <div className={s.wrapper}>
         <Title name="Добро пожаловать!"/>
-        <Form />
+        <LoginForm />
       </div>
     );
   }
